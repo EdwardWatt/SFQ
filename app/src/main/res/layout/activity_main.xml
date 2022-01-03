@@ -316,7 +316,8 @@
                 android:layout_marginBottom="40dp"
                 android:text="SUBMIT"
                 android:onClick="Submit"
-                android:layout_centerHorizontal="true"></Button>
+                android:layout_centerHorizontal="true">
+            </Button>
         </RelativeLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
