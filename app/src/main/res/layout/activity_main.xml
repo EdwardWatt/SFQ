@@ -12,7 +12,6 @@
         android:layout_height="wrap_content"
         android:text="Science Fiction Quiz"
         android:textSize="30sp"
-
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
@@ -28,8 +27,7 @@
             android:layout_height="wrap_content"
             android:padding="15dp"
             android:paddingBottom="40dp"
-            android:layout_marginBottom="40dp"
-            >
+            android:layout_marginBottom="40dp">
 
             <TextView
                 android:id="@+id/question1"
@@ -43,35 +41,37 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_below="@+id/question1"
-                android:paddingBottom="25dp"
-                >
+                android:paddingBottom="25dp">
 
                 <RadioButton
                     android:id="@+id/answer1a"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:text="Firefly"></RadioButton>
+                    android:text="Firefly">
+                </RadioButton>
 
                 <RadioButton
                     android:id="@+id/answer1b"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:text="X-Wing"></RadioButton>
+                    android:text="X-Wing">
+                </RadioButton>
 
                 <RadioButton
                     android:id="@+id/answer1c"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:text="Galaxy Class"></RadioButton>
+                    android:text="Galaxy Class">
+                </RadioButton>
 
                 <RadioButton
                     android:id="@+id/answer1d"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:text="Dreadnaught"></RadioButton>
-
+                    android:text="Dreadnaught">
+                </RadioButton>
             </RadioGroup>
-
+            
             <TextView
                 android:id="@+id/question2"
                 android:layout_width="wrap_content"
@@ -88,7 +88,8 @@
                 android:inputType="text"
                 android:hint="Starship Name"
                 android:layout_below="@id/question2"
-                android:layout_marginBottom="35dp" ></EditText>
+                android:layout_marginBottom="35dp" >
+            </EditText>
 
             <TextView
                 android:id="@+id/question3"
@@ -103,33 +104,34 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_below="@+id/question3"
-                android:paddingBottom="25dp"
-                >
+                android:paddingBottom="25dp">
 
                 <RadioButton
                     android:id="@+id/answer3a"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:text="Mythical Warriors of Zalu"></RadioButton>
+                    android:text="Mythical Warriors of Zalu">
+                </RadioButton>
 
                 <RadioButton
                     android:id="@+id/answer3b"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:text="Sith Lords"></RadioButton>
+                    android:text="Sith Lords">
+                </RadioButton>
 
                 <RadioButton
                     android:id="@+id/answer3c"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:text="Light Siders"></RadioButton>
+                    android:text="Light Siders">
+                </RadioButton>
 
                 <RadioButton
                     android:id="@+id/answer3d"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:text="Jedi Knights">
-
                 </RadioButton>
             </RadioGroup>
 
@@ -146,33 +148,34 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_below="@+id/question4"
-                android:paddingBottom="25dp"
-                >
+                android:paddingBottom="25dp">
 
                 <RadioButton
                     android:id="@+id/answer4a"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:text="Stephen King"></RadioButton>
+                    android:text="Stephen King">
+                </RadioButton>
 
                 <RadioButton
                     android:id="@+id/answer4b"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:text="Michael Crichton"></RadioButton>
+                    android:text="Michael Crichton">
+                </RadioButton>
 
                 <RadioButton
                     android:id="@+id/answer4c"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:text="George Lucas"></RadioButton>
+                    android:text="George Lucas">
+                </RadioButton>
 
                 <RadioButton
                     android:id="@+id/answer4d"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:text="Gene Roddenberry">
-
                 </RadioButton>
             </RadioGroup>
 
@@ -182,30 +185,31 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@id/answers4"
                 android:text="Question 5: Who are the 2 main Heroes in Hunger Games?"
-                android:textSize="20sp" />
-
-
+                android:textSize="20sp"/>
 
             <CheckBox
                 android:id="@+id/answer5a"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:text="President Snow"
-                android:layout_below="@id/question5"></CheckBox>
+                android:layout_below="@id/question5">
+            </CheckBox>
 
             <CheckBox
                 android:id="@+id/answer5b"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:text="Peeta Mellark"
-                android:layout_below="@id/answer5a"></CheckBox>
+                android:layout_below="@id/answer5a">
+            </CheckBox>
 
             <CheckBox
                 android:id="@+id/answer5c"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:text="Caesar Flickerman"
-                android:layout_below="@id/answer5b"></CheckBox>
+                android:layout_below="@id/answer5b">
+            </CheckBox>
 
             <CheckBox
                 android:id="@+id/answer5d"
@@ -214,9 +218,7 @@
                 android:text="Katniss Everdeen"
                 android:layout_below="@id/answer5c"
                 android:layout_marginBottom="25dp">
-
             </CheckBox>
-
 
             <TextView
                 android:id="@+id/question6"
@@ -231,33 +233,34 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_below="@+id/question6"
-                android:paddingBottom="25dp"
-                >
+                android:paddingBottom="25dp">
 
                 <RadioButton
                     android:id="@+id/answer6a"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:text="The Borg"></RadioButton>
+                    android:text="The Borg">
+                </RadioButton>
 
                 <RadioButton
                     android:id="@+id/answer6b"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:text="The Cylons"></RadioButton>
+                    android:text="The Cylons">
+                </RadioButton>
 
                 <RadioButton
                     android:id="@+id/answer6c"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:text="The Darleks"></RadioButton>
+                    android:text="The Darleks">
+                </RadioButton>
 
                 <RadioButton
                     android:id="@+id/answer6d"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:text="The Scourge">
-
                 </RadioButton>
             </RadioGroup>
 
@@ -267,40 +270,41 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@id/answers6"
                 android:text="Question 7: In Doctor Who, the Doctor travels in what?"
-                android:textSize="20sp" />
+                android:textSize="20sp"/>
 
             <RadioGroup
                 android:id="@+id/answers7"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_below="@+id/question7"
-                android:paddingBottom="25dp"
-                >
+                android:paddingBottom="25dp">
 
                 <RadioButton
                     android:id="@+id/answer7a"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:text="Flying Car"></RadioButton>
+                    android:text="Flying Car">
+                </RadioButton>
 
                 <RadioButton
                     android:id="@+id/answer7b"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:text="TARDIS"></RadioButton>
+                    android:text="TARDIS">
+                </RadioButton>
 
                 <RadioButton
                     android:id="@+id/answer7c"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:text="Delorean"></RadioButton>
+                    android:text="Delorean">
+                </RadioButton>
 
                 <RadioButton
                     android:id="@+id/answer7d"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:text="Spaceball One">
-
                 </RadioButton>
             </RadioGroup>
 
@@ -314,7 +318,5 @@
                 android:onClick="Submit"
                 android:layout_centerHorizontal="true"></Button>
         </RelativeLayout>
-
     </ScrollView>
-
 </androidx.constraintlayout.widget.ConstraintLayout>
